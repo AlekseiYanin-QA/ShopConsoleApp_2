@@ -39,14 +39,14 @@
 ## Логирование
 Логи приложения записываются в файл logs/app.log и выводятся в консоль. Пример логов:
 
-
-**15:30:45.123 [main] INFO  com.shop.service.UserService - User added: User(id=1, name=Иван, email=ivan@example.com) **
+` ```bash 
+15:30:45.123 [main] INFO  com.shop.service.UserService - User added: User(id=1, name=Иван, email=ivan@example.com) `
 
 
 ## Тестирование
 
-   ```bash
-   mvn test
+  ```bash
+   mvn test  
    
 Тесты покрывают основные сценарии работы сервисов и проверяют обработку исключений.
 
