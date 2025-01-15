@@ -38,7 +38,10 @@
 
 ## Логирование
 Логи приложения записываются в файл logs/app.log и выводятся в консоль. Пример логов:
-15:30:45.123 [main] INFO  com.shop.service.UserService - User added: User(id=1, name=Иван, email=ivan@example.com)
+
+
+**15:30:45.123 [main] INFO  com.shop.service.UserService - User added: User(id=1, name=Иван, email=ivan@example.com) **
+
 
 ## Тестирование
 
